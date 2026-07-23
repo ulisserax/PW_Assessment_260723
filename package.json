@@ -1,0 +1,21 @@
+{
+  "name": "pw_assessment_260723",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript assessment for the Product Manager demo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "dotenv": "^17.4.2",
+    "typescript": "^7.0.2"
+  }
+}
